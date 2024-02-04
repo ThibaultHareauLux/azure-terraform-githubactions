@@ -2,13 +2,18 @@
 
 > How to prepare Azure to host an application deployed with Github Actions ?
 
-## Documentation
+## Setup
+
+This section describes how to setup Azure and Github to create the connection between the two elements.
+Follow the instructions of the documentations below and use the script below if anything is unclear.
+
+### Documentation
 
 [Microsoft Documentation](https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure?tabs=azure-cli%2Clinux#use-the-azure-login-action-with-openid-connect)
 
 [Github Documentation](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-azure)
 
-## Setup
+### Script
 
 ```sh
 az login
