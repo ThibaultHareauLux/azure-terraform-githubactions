@@ -27,3 +27,4 @@ az ad app federated-credential create --id <APPLICATION-OBJECT-ID> --parameters 
 az ad app federated-credential create --id <APPLICATION-OBJECT-ID> --parameters '{ \"name\":\"PR-credentials\", \"issuer\": \"https://token.actions.githubusercontent.com\", \"subject\": \"repo:<organization/repo>:pull_request\", \"description\": \"Credentials to operate during a PR\",\"audiences\": [ \"api://AzureADTokenExchange\" ] }'
 ```
 
+
